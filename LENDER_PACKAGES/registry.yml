@@ -1,0 +1,399 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# OPTKAS1 LLC — LENDER PACKAGE REGISTRY
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# This file is the CONTROL PANEL for all lender targets.
+# To add a new package: copy TEMPLATE/ → TARGETS/[LenderName]/ → fill fields → submit.
+#
+# Last Updated: February 9, 2026
+# Maintainer: Kevan (kevan@xxxiii.io)
+#
+
+# ─────────────────────────────────────────────────────────────────────────
+# ROUTE A — ALEXANDRITE BRIDGE (Fastest: $2M–$18M, 7–30 BD)
+# ─────────────────────────────────────────────────────────────────────────
+
+- id: borro
+  name: "Borro (Luxury Asset Capital)"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$5,000,000 – $10,000,000"
+  max_check_size: "$5,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "12% – 24%"
+  custody_required: true
+  custody_preference: "Borro's own custody or Brink's"
+  insurance_required: true
+  insurance_type: "Specie / Jewellers Block"
+  submission_method: "Web application + follow-up email"
+  submission_url: "https://borro.com"
+  sla_days: "3–7 BD (fast-pay model)"
+  settlement: "Wire transfer"
+  priority: 1
+  status: "ready_to_submit"
+  notes: "Luxury asset bridge lender. Publicly states 1-2 BD funding. Best for smaller tranche. May cap at $5M for single rough stone."
+  package_folder: "TARGETS/Borro/"
+
+- id: qollateral
+  name: "Qollateral"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$5,000,000 – $10,000,000"
+  max_check_size: "$10,000,000"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "12% – 24%"
+  custody_required: true
+  custody_preference: "Qollateral's custody network"
+  insurance_required: true
+  insurance_type: "Specie (included in their model)"
+  submission_method: "Online application + scheduled call"
+  submission_url: "https://qollateral.com"
+  sla_days: "3–7 BD (same-day claims)"
+  settlement: "Wire transfer"
+  priority: 1
+  status: "ready_to_submit"
+  notes: "Publicly offers up to $10M. Same-day loan claims. GIA-trained appraisers on staff. Cap at $10M means this is bridge only, not full ask."
+  package_folder: "TARGETS/Qollateral/"
+
+- id: intacapital_swiss
+  name: "IntaCapital Swiss SA"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$12,000,000 – $18,000,000"
+  max_check_size: "$18,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "30% – 35%"
+  custody_required: true
+  custody_preference: "Swiss vault or Malca-Amit"
+  insurance_required: true
+  insurance_type: "Specie + Transit"
+  submission_method: "Email introduction + package"
+  submission_url: null
+  sla_days: "5–10 BD"
+  settlement: "Wire transfer (CHF/USD/EUR)"
+  priority: 1
+  status: "ready_to_submit"
+  notes: "Gem monetization specialist. Can handle institutional-scale colored stone deals. Best fit for the full $12M-$18M ask against Alexandrite."
+  package_folder: "TARGETS/IntaCapital_Swiss/"
+
+- id: beverly_loan
+  name: "Beverly Loan Company"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$2,000,000 – $5,000,000"
+  max_check_size: "$5,000,000 (est.)"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "5% – 12%"
+  custody_required: true
+  custody_preference: "Beverly Loan's own vault (Beverly Hills)"
+  insurance_required: true
+  insurance_type: "Included in their model"
+  submission_method: "Appointment (Beverly Hills) or shipping"
+  submission_url: "https://beverlyloan.com"
+  sla_days: "3–7 BD"
+  settlement: "Wire transfer or check"
+  priority: 2
+  status: "ready_to_submit"
+  notes: "GIA-trained staff. Accepts certified colored stones. Conservative LTV but FAST execution. Best for $2M-$5M bridge tranche."
+  package_folder: "TARGETS/Beverly_Loan/"
+
+- id: collateral_lenders
+  name: "Collateral Lenders"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$1,000,000 – $3,000,000"
+  max_check_size: "$3,000,000 (est.)"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "2% – 7%"
+  custody_required: true
+  custody_preference: "Collateral Lenders' own vault (Jackson, MS)"
+  insurance_required: true
+  insurance_type: "Included in their model"
+  submission_method: "Appointment required"
+  submission_url: "https://collaterallenders.com"
+  sla_days: "5–10 BD"
+  settlement: "Wire transfer"
+  priority: 3
+  status: "fallback"
+  notes: "Licensed/insured, accepts diamonds + certified colored gemstones. Regional player. Use only for smaller bridge or if primary targets decline."
+  package_folder: "TARGETS/Collateral_Lenders/"
+
+# ─────────────────────────────────────────────────────────────────────────
+# ROUTE 2.5 — STABLECOIN BRIDGE ($2M, 3–7 BD)
+# ─────────────────────────────────────────────────────────────────────────
+
+- id: otc_crypto_credit
+  name: "OTC Desks / Crypto Credit Funds"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$2,000,000 – $10,000,000"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach / broker introduction"
+  submission_url: null
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT (lender's election), wire fallback"
+  priority: 1
+  status: "ready_to_submit"
+  notes: "Fastest USDC/USDT source. 4% flat fee, 60-day bullet, 21:1 overcollateralization. Full counsel-grade doc pack in TC repo 07_EMERGENCY_BRIDGE_2M/."
+  package_folder: "TARGETS/OTC_Crypto_Credit/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: damrev
+  name: "DAMREV"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$5,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault"
+  insurance_required: true
+  insurance_type: "Specie"
+  submission_method: "Email / platform"
+  submission_url: null
+  sla_days: "7–14 BD"
+  settlement: "USDC/USDT"
+  priority: 2
+  status: "ready_to_submit"
+  notes: "RWA tokenization for gemstones. Understands gem → digital asset bridge. May require token evidence (see 09_NON_RELIANCE_TOKEN_EVIDENCE_SPEC.md)."
+  package_folder: "TARGETS/OTC_Crypto_Credit/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+# ─────────────────────────────────────────────────────────────────────────
+# ROUTE A+ — INSTITUTIONAL ALEXANDRITE ($12M–$18M, 10–20 BD)
+# ─────────────────────────────────────────────────────────────────────────
+
+- id: swiss_private_banks
+  name: "Swiss Private Banks (UBS, Lombard Odier, Julius Baer)"
+  route: A
+  route_name: "Alexandrite Bridge — Lombard Credit"
+  target_amount: "$12,000,000 – $18,000,000"
+  max_check_size: "$50,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "30% – 35%"
+  custody_required: true
+  custody_preference: "Malca-Amit Geneva or Brink's Zurich"
+  insurance_required: true
+  insurance_type: "Specie (Swiss market)"
+  submission_method: "Private banker introduction required"
+  submission_url: null
+  sla_days: "10–20 BD"
+  settlement: "Wire (CHF/USD/EUR)"
+  priority: 2
+  status: "needs_introduction"
+  notes: "Swiss private banks do Lombard lending against gems. Require custody in Swiss jurisdiction. Higher LTV possible with Swiss vault + Swiss insurance."
+  package_folder: "TARGETS/Swiss_Private_Banks/"
+
+- id: oxford_business_capital
+  name: "Oxford Business Capital"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$5,000,000 – $12,000,000"
+  max_check_size: "$12,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "12% – 28%"
+  custody_required: true
+  custody_preference: "Lender-approved vault"
+  insurance_required: true
+  insurance_type: "Specie"
+  submission_method: "Email / web application"
+  submission_url: null
+  sla_days: "5–10 BD"
+  settlement: "Wire transfer"
+  priority: 2
+  status: "ready_to_submit"
+  notes: "Esoteric asset lending $500K+. Accepts non-traditional collateral. Good fit for colored stone at scale."
+  package_folder: "TARGETS/IntaCapital_Swiss/"
+
+- id: rk_luxury_lending
+  name: "RK & Co. Luxury Lending"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$5,000,000 – $15,000,000"
+  max_check_size: "$15,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "12% – 35%"
+  custody_required: true
+  custody_preference: "Lender-approved vault"
+  insurance_required: true
+  insurance_type: "Specie"
+  submission_method: "Email / broker introduction"
+  submission_url: null
+  sla_days: "5–15 BD"
+  settlement: "Wire transfer"
+  priority: 2
+  status: "ready_to_submit"
+  notes: "Colored stone specialist. Understands alexandrite market. Good for mid-range $5M-$15M ask."
+  package_folder: "TARGETS/IntaCapital_Swiss/"
+
+- id: quantumrock
+  name: "Quantumrock Luxembourg"
+  route: A
+  route_name: "Alexandrite Bridge — Structured"
+  target_amount: "$10,000,000 – $18,000,000"
+  max_check_size: "$18,000,000+"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "24% – 42%"
+  custody_required: true
+  custody_preference: "European vault"
+  insurance_required: true
+  insurance_type: "Specie + Structured coverage"
+  submission_method: "Email / structured finance team"
+  submission_url: null
+  sla_days: "7–15 BD"
+  settlement: "Wire transfer (EUR/USD)"
+  priority: 2
+  status: "ready_to_submit"
+  notes: "Structured gem investment. Luxembourg domicile. May structure as participation or note rather than pure loan."
+  package_folder: "TARGETS/Swiss_Private_Banks/"
+
+- id: dealstream
+  name: "DealStream"
+  route: A
+  route_name: "Alexandrite Bridge"
+  target_amount: "$5,000,000 – $18,000,000"
+  max_check_size: "Platform-dependent"
+  collateral: "Alexandrite ($42M)"
+  ltv_target: "12% – 42%"
+  custody_required: true
+  custody_preference: "Borrower-arranged"
+  insurance_required: true
+  insurance_type: "Specie"
+  submission_method: "Platform listing"
+  submission_url: null
+  sla_days: "5–10 BD"
+  settlement: "Wire transfer"
+  priority: 3
+  status: "ready_to_submit"
+  notes: "Private capital marketplace. Post opportunity → receive lender inquiries. Good for parallel exposure while primary targets are processing."
+  package_folder: "TARGETS/IntaCapital_Swiss/"
+
+# ─────────────────────────────────────────────────────────────────────────
+# ROUTE D — PERSONAL GEM BRIDGE ($5M–$10M, 15–30 BD)
+# ─────────────────────────────────────────────────────────────────────────
+
+- id: provident_loan
+  name: "Provident Loan Society of New York"
+  route: D
+  route_name: "Personal Gem Bridge"
+  target_amount: "$500,000 – $2,000,000"
+  max_check_size: "$2,000,000 (est.)"
+  collateral: "Personal rubies ($12M) + RE ($6.6M)"
+  ltv_target: "3% – 11%"
+  custody_required: true
+  custody_preference: "Provident's own vault (NYC)"
+  insurance_required: true
+  insurance_type: "Included"
+  submission_method: "Appointment (NYC)"
+  submission_url: "https://providentloan.com"
+  sla_days: "1–3 BD"
+  settlement: "Wire or check"
+  priority: 3
+  status: "route_d_only"
+  notes: "NYC-based, fast payout, appointment model. Use for personal assets only. Small check but fastest execution."
+  package_folder: null
+
+- id: ny_loan_company
+  name: "New York Loan Company"
+  route: D
+  route_name: "Personal Gem Bridge"
+  target_amount: "$1,000,000 – $3,000,000"
+  max_check_size: "$3,000,000 (est.)"
+  collateral: "Personal rubies ($12M)"
+  ltv_target: "8% – 25%"
+  custody_required: true
+  custody_preference: "NYLC's own vault"
+  insurance_required: true
+  insurance_type: "Included"
+  submission_method: "Appointment (NYC)"
+  submission_url: "https://newyorkloan.com"
+  sla_days: "3–7 BD"
+  settlement: "Wire transfer"
+  priority: 3
+  status: "route_d_only"
+  notes: "Diamond/gemstone collateral loans. Appointment-based. Use for personal ruby bridge."
+  package_folder: null
+
+# ─────────────────────────────────────────────────────────────────────────
+# CUSTODY / VAULT PROVIDERS (not lenders — enablers)
+# ─────────────────────────────────────────────────────────────────────────
+
+- id: brinks
+  name: "Brink's Global Services"
+  type: "custody_provider"
+  specialty: "Diamonds, jewelry, precious metals"
+  global_reach: "100+ countries"
+  services: "Vaulting, transit, FTZ, inventory management"
+  contact_method: "Business development inquiry"
+  url: "https://brinksglobal.com/diamonds-and-jewelry"
+  priority: 1
+  notes: "Institutional standard. Most lenders will accept Brink's custody without question."
+
+- id: malca_amit
+  name: "Malca-Amit"
+  type: "custody_provider"
+  specialty: "Diamonds, jewelry, precious metals, FTZ"
+  global_reach: "30+ countries"
+  services: "Vaulting, logistics, FTZ facilities, inventory"
+  contact_method: "Business development inquiry"
+  url: "https://malca-amit.com"
+  priority: 1
+  notes: "Swiss + Singapore + global. FTZ facilities enable tax-efficient storage. Strong with private banks."
+
+- id: loomis
+  name: "Loomis International"
+  type: "custody_provider"
+  specialty: "Valuables, cash management, precious items"
+  global_reach: "20+ countries"
+  services: "Vaulting, transit, secure logistics"
+  contact_method: "Business development inquiry"
+  url: null
+  priority: 2
+  notes: "Strong European presence. Alternative if Brink's/Malca not available in target jurisdiction."
+
+# ─────────────────────────────────────────────────────────────────────────
+# INSURANCE BROKERS
+# ─────────────────────────────────────────────────────────────────────────
+
+- id: marsh_specie
+  name: "Marsh (Fine Art, Jewellery & Specie)"
+  type: "insurance_broker"
+  coverage: "Specie, jewellers block, transit, digital asset custody"
+  specialty: "Largest specie practice globally"
+  capacity: "Lloyd's syndicates + London market"
+  priority: 1
+  notes: "Primary broker target. Also has digital asset custody facility ($825M capacity)."
+
+- id: aon_jewellers
+  name: "Aon (Jewellers Block)"
+  type: "insurance_broker"
+  coverage: "Jewellers block, specie"
+  specialty: "Established jewellers block program"
+  capacity: "Lloyd's + global markets"
+  priority: 2
+  notes: "Alternative to Marsh. Standard proposal pathway."
+
+- id: willis_specie
+  name: "Willis Towers Watson (Specie & Fine Art)"
+  type: "insurance_broker"
+  coverage: "Specie, fine art, precious items"
+  specialty: "Deep London market relationships"
+  capacity: "Lloyd's + London market"
+  priority: 2
+  notes: "Alternative broker. Strong in London market."
+
+- id: lockton_specialty
+  name: "Lockton (Specialty Lines)"
+  type: "insurance_broker"
+  coverage: "Specie, specialty lines"
+  specialty: "Competitive alternative"
+  capacity: "Various"
+  priority: 3
+  notes: "Competitive quotes. Good for price comparison."

@@ -23,7 +23,7 @@
 ║  3. File UCC-1 (3–5 BD)                                                            ║
 ║  4. Submit to specialty lenders (Day 1)                                            ║
 ║                                                                                    ║
-║  EXPECTED RESULT: $12M–$21M facility in 15–45 business days                       ║
+║  EXPECTED RESULT: $12M–$21M facility in 7–30 business days                       ║
 ║                                                                                    ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -105,7 +105,7 @@
 ║   ║                                                           ║          ║
 ╠═══╬═══════════════════════════════════════════════════════════╬══════════╣
 ║   ║                                                           ║          ║
-║ 7 ║  TERM SHEET → DOCUMENTATION → FUNDING                    ║ Day 15–45║
+║ 7 ║  TERM SHEET → DOCUMENTATION → FUNDING                    ║ Day 14–30║
 ║   ║  • Term sheet issued                                      ║          ║
 ║   ║  • Loan documents prepared + signed                       ║          ║
 ║   ║  • ⚡ FUNDING: $12M–$21M wired                            ║          ║
@@ -203,7 +203,7 @@
     └── 1–2 crypto-native lenders (Category 5)
 
     TOTAL TARGET: 5–8 simultaneous submissions
-    GOAL: Term sheet within 15–30 BD
+    GOAL: Term sheet within 7–30 BD
 ```
 
 ---
@@ -222,7 +222,7 @@
 ║                                                                        ║
 ║  📌 THE ASK:                                                          ║
 ║     $12M–$18M facility secured by $42M appraised Alexandrite          ║
-║     30–42% LTV (massive overcollateralization)                        ║
+║     30–35% LTV (up to 40% in competitive scenarios)                   ║
 ║     12–24 month tenor                                                  ║
 ║                                                                        ║
 ║  📌 THE ASSET:                                                        ║
@@ -265,7 +265,7 @@
 
 ## 4. Day-by-Day Timeline
 
-### Alexandrite Funding — 45-Day Execution Plan
+### Alexandrite Funding — 30-Day Execution Plan
 
 ```
     ┌──────────────────────────────────────────────────────────────────────┐
@@ -378,7 +378,7 @@
 ║  TRACK 2: ALEXANDRITE (deploy NOW)                                                 ║
 ║  ├── $42M appraised, DocuSign authenticated                                        ║
 ║  ├── Submit to 5–8 specialty lenders                                               ║
-║  └── Target: $12M–$21M in 15–45 BD                                                ║
+║  └── Target: $12M–$21M in 7–30 BD                                                ║
 ║                                                                                    ║
 ║  TRACK 3: RUBY PREP (background)                                                  ║
 ║  ├── Commission appraisals, get consents                                           ║
@@ -411,7 +411,7 @@
     The appraisal is DocuSign authenticated and explicitly designates
     the material as a CURRENT ASSET for the financial market.
 
-    We are seeking a credit facility of $12M–$18M (30–42% LTV)
+    We are seeking a credit facility of $12M–$18M (30–35% LTV)
     secured by this asset, to be held in [vault] custody with
     full insurance coverage.
 
@@ -450,6 +450,7 @@
 | Version | Date | Change |
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial gem funding playbook |
+| 1.1 | February 9, 2026 | Timeline 7–30 BD, LTV 30–35%, named lender targets, package factory cross-ref |
 
 ---
 

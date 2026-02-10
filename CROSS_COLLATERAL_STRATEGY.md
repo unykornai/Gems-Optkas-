@@ -107,7 +107,7 @@
 ### Strategy 3: Gem Bridge → Bond Facility
 
 ```
-    Step 1: ALEXANDRITE ($42M) → $12M–$21M bridge (15–45 BD)
+    Step 1: ALEXANDRITE ($42M) → $12M–$21M bridge (7–30 BD)
     Step 2: BONDS ($500M) → $4M–$200M ABL (60–120 BD)
     Step 3: Refinance bridge into larger facility when bond ABL closes
 
@@ -159,7 +159,7 @@
     DAYS 1–30:  Prepare rubies for deployment.
     DAYS 30–60: Full gem portfolio ready → cross-collateral option opens.
 
-    FASTEST MONEY: Alexandrite bridge → $12M–$21M in 15–45 BD
+    FASTEST MONEY: Alexandrite bridge → $12M–$21M in 7–30 BD
     LARGEST MONEY: Cross-collateral → $100M–$350M in 60–120 BD
 ```
 
@@ -170,6 +170,7 @@
 | Version | Date | Change |
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial cross-collateral strategy |
+| 1.1 | February 9, 2026 | Alexandrite bridge timeline fixed to 7–30 BD |
 
 ---
 

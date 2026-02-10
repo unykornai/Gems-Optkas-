@@ -54,6 +54,9 @@
 | 🚀 | [GEM_FUNDING_PLAYBOOK.md](GEM_FUNDING_PLAYBOOK.md) | Where to send, how to get funded FAST, step-by-step | 🔴 ACTION |
 | 🔗 | [CROSS_COLLATERAL_STRATEGY.md](CROSS_COLLATERAL_STRATEGY.md) | How $430M gems + $500M bonds = $936.6M power play | 🟠 STRATEGY |
 | ⛓️ | [XRPL_GEM_INTEGRATION.md](XRPL_GEM_INTEGRATION.md) | GEMVLT token, on-chain proof, reporting layer | 🟡 TECH |
+| 📄 | [ALEXANDRITE_LENDER_ONE_PAGER.md](ALEXANDRITE_LENDER_ONE_PAGER.md) | 1-page executive summary — email attachment for lenders | 🔴 SEND NOW |
+| 🛡️ | [INSURANCE_PLACEMENT_CHECKLIST.md](INSURANCE_PLACEMENT_CHECKLIST.md) | Specie + custody + crime + cyber — what to ask brokers | 🔴 ACTION |
+| 📦 | [LENDER_PACKAGES/](LENDER_PACKAGES/) | Repeatable package factory + lender registry + filled targets | 🔴 ACTION |
 
 ---
 
@@ -187,8 +190,8 @@
               │                          │                          │
      ┌────────▼──────────┐    ┌──────────▼──────────┐    ┌─────────▼──────────┐
      │  💰 MONEY FAST    │    │  💰💰 BIG FACILITY │    │  💰💰💰 MAXIMUM  │
-     │  ($3M–$20M)       │    │  ($50M–$172M)       │    │  ($100M–$350M)     │
-     │  15–45 BD         │    │  45–90 BD            │    │  60–120 BD         │
+     │  ($2M–$20M)       │    │  ($50M–$172M)       │    │  ($100M–$350M)     │
+     │  7–30 BD          │    │  45–90 BD            │    │  60–120 BD         │
      └────────┬──────────┘    └──────────┬──────────┘    └─────────┬──────────┘
               │                          │                          │
      ┌────────▼──────────┐    ┌──────────▼──────────┐    ┌─────────▼──────────┐
@@ -271,8 +274,8 @@
     ├──► 🟢 ROUTE A: Alexandrite Bridge (FASTEST)
     │    │
     │    │   Collateral: $42M Alexandrite
-    │    │   Facility:   $12M–$18M (30–42% LTV)
-    │    │   Timeline:   15–45 BD
+    │    │   Facility:   $12M–$18M (30–35% LTV, up to 40% competitive)
+    │    │   Timeline:   7–30 BD (depending on custody + insurance speed)
     │    │   Status:     ✅ Appraisal complete — GO NOW
     │    │
     │    └──► WHO:  Specialty gem lenders
@@ -398,6 +401,8 @@
     │  Purpose:  On-chain representation of gem vault position               │
     │  Proof:    Attestation NFT with SHA-256 hash of appraisal             │
     │  Benefit:  Real-time transparency for lenders                          │
+    │  Note:     Non-transferable representation token — attestation and     │
+    │            reporting ONLY, not for public trading or exchange listing  │
     │                                                                         │
     │  See: XRPL_GEM_INTEGRATION.md for full technical details              │
     └─────────────────────────────────────────────────────────────────────────┘
@@ -412,10 +417,32 @@
     │
     ├── README.md                           ◄── You are here
     ├── ALEXANDRITE_APPRAISAL_SUMMARY.md    ◄── $42M Alexandrite details
+    ├── ALEXANDRITE_LENDER_ONE_PAGER.md     ◄── 1-page exec summary (SEND THIS)
     ├── RUBY_ASSET_PROFILE.md               ◄── $388M Ruby details
     ├── GEM_FUNDING_PLAYBOOK.md             ◄── WHERE + HOW to get funded
     ├── CROSS_COLLATERAL_STRATEGY.md        ◄── Gems + Bonds = maximum power
-    └── XRPL_GEM_INTEGRATION.md            ◄── GEMVLT token + on-chain proof
+    ├── XRPL_GEM_INTEGRATION.md            ◄── GEMVLT token + on-chain proof
+    ├── INSURANCE_PLACEMENT_CHECKLIST.md    ◄── What to ask Marsh/Aon/Willis
+    │
+    └── LENDER_PACKAGES/                    ◄── Package factory
+        ├── registry.yml                    ◄── Control panel: all lender targets
+        ├── TEMPLATE/                       ◄── Copy → customize → submit
+        │   ├── 00_EXEC_SUMMARY.md
+        │   ├── 01_COLLATERAL_FACTSHEET.md
+        │   ├── 02_VALUATION_EVIDENCE.md
+        │   ├── 03_CUSTODY_AND_CONTROL.md
+        │   ├── 04_INSURANCE_BINDER.md
+        │   ├── 05_LEGAL_PERFECTION.md
+        │   └── 06_TERMS_REQUEST.md
+        │
+        └── TARGETS/                        ◄── Lender-specific packages
+            ├── Borro/
+            ├── Qollateral/
+            ├── IntaCapital_Swiss/
+            ├── Beverly_Loan/
+            ├── Collateral_Lenders/
+            ├── OTC_Crypto_Credit/
+            └── Swiss_Private_Banks/
 ```
 
 ---
@@ -425,6 +452,7 @@
 | Version | Date | Change |
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial gem portfolio documentation |
+| 1.1 | February 9, 2026 | +Lender one-pager, package factory, insurance checklist, named targets, timeline/LTV fix |
 
 ---
 

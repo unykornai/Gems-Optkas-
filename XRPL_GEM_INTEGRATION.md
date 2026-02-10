@@ -23,6 +23,10 @@ The OPTKAS Sovereign Platform already has a **GEMVLT token deployed on XRPL main
 ║                                                                        ║
 ║  Maps to:    Alexandrite ($42M) + Rubies ($388M) = $430M              ║
 ║                                                                        ║
+║  NOTE:       GEMVLT is a NON-TRANSFERABLE representation token used   ║
+║              solely for attestation and reporting — NOT for public     ║
+║              trading, exchange listing, or securities classification.  ║
+║                                                                        ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -251,6 +255,7 @@ The OPTKAS Sovereign Platform already has a **GEMVLT token deployed on XRPL main
 | Version | Date | Change |
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial XRPL gem integration documentation |
+| 1.1 | February 9, 2026 | Added GEMVLT non-transferable compliance statement |
 
 ---
 
