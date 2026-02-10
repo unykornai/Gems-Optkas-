@@ -1,33 +1,33 @@
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTKAS1 LLC — LENDER PACKAGE REGISTRY
-# ═══════════════════════════════════════════════════════════════════════════
+﻿# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+# OPTKAS1 LLC â€” LENDER PACKAGE REGISTRY
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 #
 # This file is the CONTROL PANEL for all lender targets.
-# To add a new package: copy TEMPLATE/ → TARGETS/[LenderName]/ → fill fields → submit.
+# To add a new package: copy TEMPLATE/ â†’ TARGETS/[LenderName]/ â†’ fill fields â†’ submit.
 #
 # Last Updated: February 10, 2026
 # Maintainer: Kevan (kevan@xxxiii.io)
 #
 
-# ─────────────────────────────────────────────────────────────────────────
-# ROUTE A — ALEXANDRITE BRIDGE (Fastest: $2M–$18M, 7–30 BD)
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ROUTE A â€” ALEXANDRITE BRIDGE (Fastest: $2Mâ€“$18M, 7â€“30 BD)
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 - id: borro
   name: "Borro (Luxury Asset Capital)"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$5,000,000 – $10,000,000"
+  target_amount: "$5,000,000 â€“ $10,000,000"
   max_check_size: "$5,000,000+"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "12% – 24%"
+  ltv_target: "12% â€“ 24%"
   custody_required: true
   custody_preference: "Borro's own custody or Brink's"
   insurance_required: true
   insurance_type: "Specie / Jewellers Block"
   submission_method: "Web application + follow-up email"
   submission_url: "https://borro.com"
-  sla_days: "3–7 BD (fast-pay model)"
+  sla_days: "3â€“7 BD (fast-pay model)"
   settlement: "Wire transfer"
   priority: 1
   status: "ready_to_submit"
@@ -38,17 +38,17 @@
   name: "Qollateral"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$5,000,000 – $10,000,000"
+  target_amount: "$5,000,000 â€“ $10,000,000"
   max_check_size: "$10,000,000"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "12% – 24%"
+  ltv_target: "12% â€“ 24%"
   custody_required: true
   custody_preference: "Qollateral's custody network"
   insurance_required: true
   insurance_type: "Specie (included in their model)"
   submission_method: "Online application + scheduled call"
   submission_url: "https://qollateral.com"
-  sla_days: "3–7 BD (same-day claims)"
+  sla_days: "3â€“7 BD (same-day claims)"
   settlement: "Wire transfer"
   priority: 1
   status: "ready_to_submit"
@@ -59,17 +59,17 @@
   name: "IntaCapital Swiss SA"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$12,000,000 – $18,000,000"
+  target_amount: "$12,000,000 â€“ $18,000,000"
   max_check_size: "$18,000,000+"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "30% – 35%"
+  ltv_target: "30% â€“ 35%"
   custody_required: true
   custody_preference: "Swiss vault or Malca-Amit"
   insurance_required: true
   insurance_type: "Specie + Transit"
   submission_method: "Email introduction + package"
   submission_url: null
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "Wire transfer (CHF/USD/EUR)"
   priority: 1
   status: "ready_to_submit"
@@ -80,17 +80,17 @@
   name: "Beverly Loan Company"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$2,000,000 – $5,000,000"
+  target_amount: "$2,000,000 â€“ $5,000,000"
   max_check_size: "$5,000,000 (est.)"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "5% – 12%"
+  ltv_target: "5% â€“ 12%"
   custody_required: true
   custody_preference: "Beverly Loan's own vault (Beverly Hills)"
   insurance_required: true
   insurance_type: "Included in their model"
   submission_method: "Appointment (Beverly Hills) or shipping"
   submission_url: "https://beverlyloan.com"
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "Wire transfer or check"
   priority: 2
   status: "ready_to_submit"
@@ -101,33 +101,33 @@
   name: "Collateral Lenders"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$1,000,000 – $3,000,000"
+  target_amount: "$1,000,000 â€“ $3,000,000"
   max_check_size: "$3,000,000 (est.)"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "2% – 7%"
+  ltv_target: "2% â€“ 7%"
   custody_required: true
   custody_preference: "Collateral Lenders' own vault (Jackson, MS)"
   insurance_required: true
   insurance_type: "Included in their model"
   submission_method: "Appointment required"
   submission_url: "https://collaterallenders.com"
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "Wire transfer"
   priority: 3
   status: "fallback"
   notes: "Licensed/insured, accepts diamonds + certified colored gemstones. Regional player. Use only for smaller bridge or if primary targets decline."
   package_folder: "TARGETS/Collateral_Lenders/"
 
-# ─────────────────────────────────────────────────────────────────────────
-# ROUTE 2.5 — STABLECOIN BRIDGE ($2M, 3–7 BD)
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ROUTE 2.5 â€” STABLECOIN BRIDGE ($2M, 3â€“7 BD)
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 - id: otc_crypto_credit
   name: "OTC Desks / Crypto Credit Funds"
   route: "2.5"
   route_name: "Stablecoin Bridge ($2M USDC/USDT)"
   target_amount: "$2,000,000"
-  max_check_size: "$2,000,000 – $10,000,000"
+  max_check_size: "$2,000,000 â€“ $10,000,000"
   collateral: "Alexandrite ($42M) in vault escrow"
   ltv_target: "4.76%"
   custody_required: true
@@ -136,7 +136,7 @@
   insurance_type: "Specie + Digital Asset Custody"
   submission_method: "Direct outreach / broker introduction"
   submission_url: null
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT (lender's election), wire fallback"
   priority: 1
   status: "ready_to_submit"
@@ -156,9 +156,9 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — lending desk"
+  submission_method: "Direct outreach â€” lending desk"
   submission_url: "https://galaxy.com"
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT"
   priority: 1
   tier: 1
@@ -171,6 +171,9 @@
 - id: falconx
   name: "FalconX"
   route: "2.5"
+  lp_role: "dual  also Tier 2 LP (Phase 2 Issuance)"
+  lp_tier: 2
+  lp_phase: 2
   route_name: "Stablecoin Bridge ($2M USDC/USDT)"
   target_amount: "$2,000,000"
   max_check_size: "$25,000,000+"
@@ -180,9 +183,9 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — financing team"
+  submission_method: "Direct outreach â€” financing team"
   submission_url: "https://falconx.io/services/financing"
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT"
   priority: 1
   tier: 1
@@ -195,6 +198,9 @@
 - id: amber_group
   name: "Amber Group"
   route: "2.5"
+  lp_role: "dual  also Tier 2 LP (Phase 2 Issuance)"
+  lp_tier: 2
+  lp_phase: 2
   route_name: "Stablecoin Bridge ($2M USDC/USDT)"
   target_amount: "$2,000,000"
   max_check_size: "$25,000,000+"
@@ -204,9 +210,9 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — OTC desk"
+  submission_method: "Direct outreach â€” OTC desk"
   submission_url: "https://ambergroup.io"
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT"
   priority: 1
   tier: 1
@@ -228,13 +234,13 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — credit team"
+  submission_method: "Direct outreach â€” credit team"
   submission_url: "https://maple.finance/about"
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "USDC or USDT"
   priority: 1
   tier: 2
-  tier_timing: "Day 0–1"
+  tier_timing: "Day 0â€“1"
   status: "ready_to_submit"
   notes: "Institutional lending pools + direct credit. Understands structured credit. Pitch: senior secured physical-asset-backed bridge with stablecoin settlement."
   package_folder: "TARGETS/Maple_Finance/"
@@ -252,13 +258,13 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — credit strategies"
+  submission_method: "Direct outreach â€” credit strategies"
   submission_url: null
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "USDC or USDT"
   priority: 1
   tier: 2
-  tier_timing: "Day 0–1"
+  tier_timing: "Day 0â€“1"
   status: "ready_to_submit"
   notes: "Credit fund with digital asset mandate. Manages structured products. Pitch: overcollateralized bridge, uncorrelated to crypto markets, 4% flat return."
   package_folder: "TARGETS/BlockTower/"
@@ -276,9 +282,9 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — alternative credit"
+  submission_method: "Direct outreach â€” alternative credit"
   submission_url: null
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "USDC or USDT"
   priority: 2
   tier: 3
@@ -291,6 +297,9 @@
 - id: gsr
   name: "GSR"
   route: "2.5"
+  lp_role: "dual  also Tier 1 LP (Phase 1 Emergency)"
+  lp_tier: 1
+  lp_phase: 1
   route_name: "Stablecoin Bridge ($2M USDC/USDT)"
   target_amount: "$2,000,000"
   max_check_size: "$25,000,000+"
@@ -300,9 +309,9 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — OTC lending"
+  submission_method: "Direct outreach â€” OTC lending"
   submission_url: null
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT"
   priority: 2
   tier: 3
@@ -324,13 +333,13 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — credit desk"
+  submission_method: "Direct outreach â€” credit desk"
   submission_url: null
-  sla_days: "7–14 BD"
+  sla_days: "7â€“14 BD"
   settlement: "USDC or USDT"
   priority: 2
   tier: 4
-  tier_timing: "Day 1–2"
+  tier_timing: "Day 1â€“2"
   status: "ready_to_submit"
   notes: "Digital arm of premier macro hedge fund. Institutional-grade diligence cycle. Pitch: senior secured, physical-asset-backed, zero crypto correlation, 4% annualized return."
   package_folder: "TARGETS/Brevan_Howard_Digital/"
@@ -339,6 +348,9 @@
 - id: drw_cumberland
   name: "DRW / Cumberland"
   route: "2.5"
+  lp_role: "dual  also Tier 1 LP (Phase 1 Emergency)"
+  lp_tier: 1
+  lp_phase: 1
   route_name: "Stablecoin Bridge ($2M USDC/USDT)"
   target_amount: "$2,000,000"
   max_check_size: "$50,000,000+"
@@ -348,13 +360,13 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — OTC desk"
+  submission_method: "Direct outreach â€” OTC desk"
   submission_url: null
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT"
   priority: 2
   tier: 4
-  tier_timing: "Day 1–2"
+  tier_timing: "Day 1â€“2"
   status: "ready_to_submit"
   notes: "Principal trading firm with deep stablecoin liquidity. $2M is trivial. Pitch: overcollateralized senior secured bridge, vault escrow, lender-only default release."
   package_folder: "TARGETS/DRW_Cumberland/"
@@ -363,6 +375,9 @@
 - id: wintermute
   name: "Wintermute"
   route: "2.5"
+  lp_role: "dual  also Tier 1 LP (Phase 1 Emergency)"
+  lp_tier: 1
+  lp_phase: 1
   route_name: "Stablecoin Bridge ($2M USDC/USDT)"
   target_amount: "$2,000,000"
   max_check_size: "$25,000,000+"
@@ -372,13 +387,13 @@
   custody_preference: "Independent vault with tripartite control"
   insurance_required: true
   insurance_type: "Specie + Digital Asset Custody"
-  submission_method: "Direct outreach — OTC + lending"
+  submission_method: "Direct outreach â€” OTC + lending"
   submission_url: null
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "USDC or USDT"
   priority: 2
   tier: 4
-  tier_timing: "Day 1–2"
+  tier_timing: "Day 1â€“2"
   status: "ready_to_submit"
   notes: "Leading algorithmic market maker with OTC lending desk. Deep stablecoin liquidity. Pitch: 21:1 overcollateralized, real-world asset, zero market-correlation risk."
   package_folder: "TARGETS/Wintermute/"
@@ -398,33 +413,33 @@
   insurance_type: "Specie"
   submission_method: "Email / platform"
   submission_url: null
-  sla_days: "7–14 BD"
+  sla_days: "7â€“14 BD"
   settlement: "USDC/USDT"
   priority: 2
   status: "ready_to_submit"
-  notes: "RWA tokenization for gemstones. Understands gem → digital asset bridge. May require token evidence (see 09_NON_RELIANCE_TOKEN_EVIDENCE_SPEC.md)."
+  notes: "RWA tokenization for gemstones. Understands gem â†’ digital asset bridge. May require token evidence (see 09_NON_RELIANCE_TOKEN_EVIDENCE_SPEC.md)."
   package_folder: "TARGETS/OTC_Crypto_Credit/"
   tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
 
-# ─────────────────────────────────────────────────────────────────────────
-# ROUTE A+ — INSTITUTIONAL ALEXANDRITE ($12M–$18M, 10–20 BD)
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ROUTE A+ â€” INSTITUTIONAL ALEXANDRITE ($12Mâ€“$18M, 10â€“20 BD)
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 - id: swiss_private_banks
   name: "Swiss Private Banks (UBS, Lombard Odier, Julius Baer)"
   route: A
-  route_name: "Alexandrite Bridge — Lombard Credit"
-  target_amount: "$12,000,000 – $18,000,000"
+  route_name: "Alexandrite Bridge â€” Lombard Credit"
+  target_amount: "$12,000,000 â€“ $18,000,000"
   max_check_size: "$50,000,000+"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "30% – 35%"
+  ltv_target: "30% â€“ 35%"
   custody_required: true
   custody_preference: "Malca-Amit Geneva or Brink's Zurich"
   insurance_required: true
   insurance_type: "Specie (Swiss market)"
   submission_method: "Private banker introduction required"
   submission_url: null
-  sla_days: "10–20 BD"
+  sla_days: "10â€“20 BD"
   settlement: "Wire (CHF/USD/EUR)"
   priority: 2
   status: "needs_introduction"
@@ -435,17 +450,17 @@
   name: "Oxford Business Capital"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$5,000,000 – $12,000,000"
+  target_amount: "$5,000,000 â€“ $12,000,000"
   max_check_size: "$12,000,000+"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "12% – 28%"
+  ltv_target: "12% â€“ 28%"
   custody_required: true
   custody_preference: "Lender-approved vault"
   insurance_required: true
   insurance_type: "Specie"
   submission_method: "Email / web application"
   submission_url: null
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "Wire transfer"
   priority: 2
   status: "ready_to_submit"
@@ -456,17 +471,17 @@
   name: "RK & Co. Luxury Lending"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$5,000,000 – $15,000,000"
+  target_amount: "$5,000,000 â€“ $15,000,000"
   max_check_size: "$15,000,000+"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "12% – 35%"
+  ltv_target: "12% â€“ 35%"
   custody_required: true
   custody_preference: "Lender-approved vault"
   insurance_required: true
   insurance_type: "Specie"
   submission_method: "Email / broker introduction"
   submission_url: null
-  sla_days: "5–15 BD"
+  sla_days: "5â€“15 BD"
   settlement: "Wire transfer"
   priority: 2
   status: "ready_to_submit"
@@ -476,18 +491,18 @@
 - id: quantumrock
   name: "Quantumrock Luxembourg"
   route: A
-  route_name: "Alexandrite Bridge — Structured"
-  target_amount: "$10,000,000 – $18,000,000"
+  route_name: "Alexandrite Bridge â€” Structured"
+  target_amount: "$10,000,000 â€“ $18,000,000"
   max_check_size: "$18,000,000+"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "24% – 42%"
+  ltv_target: "24% â€“ 42%"
   custody_required: true
   custody_preference: "European vault"
   insurance_required: true
   insurance_type: "Specie + Structured coverage"
   submission_method: "Email / structured finance team"
   submission_url: null
-  sla_days: "7–15 BD"
+  sla_days: "7â€“15 BD"
   settlement: "Wire transfer (EUR/USD)"
   priority: 2
   status: "ready_to_submit"
@@ -498,42 +513,42 @@
   name: "DealStream"
   route: A
   route_name: "Alexandrite Bridge"
-  target_amount: "$5,000,000 – $18,000,000"
+  target_amount: "$5,000,000 â€“ $18,000,000"
   max_check_size: "Platform-dependent"
   collateral: "Alexandrite ($42M)"
-  ltv_target: "12% – 42%"
+  ltv_target: "12% â€“ 42%"
   custody_required: true
   custody_preference: "Borrower-arranged"
   insurance_required: true
   insurance_type: "Specie"
   submission_method: "Platform listing"
   submission_url: null
-  sla_days: "5–10 BD"
+  sla_days: "5â€“10 BD"
   settlement: "Wire transfer"
   priority: 3
   status: "ready_to_submit"
-  notes: "Private capital marketplace. Post opportunity → receive lender inquiries. Good for parallel exposure while primary targets are processing."
+  notes: "Private capital marketplace. Post opportunity â†’ receive lender inquiries. Good for parallel exposure while primary targets are processing."
   package_folder: "TARGETS/IntaCapital_Swiss/"
 
-# ─────────────────────────────────────────────────────────────────────────
-# ROUTE D — PERSONAL GEM BRIDGE ($5M–$10M, 15–30 BD)
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ROUTE D â€” PERSONAL GEM BRIDGE ($5Mâ€“$10M, 15â€“30 BD)
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 - id: provident_loan
   name: "Provident Loan Society of New York"
   route: D
   route_name: "Personal Gem Bridge"
-  target_amount: "$500,000 – $2,000,000"
+  target_amount: "$500,000 â€“ $2,000,000"
   max_check_size: "$2,000,000 (est.)"
   collateral: "Personal rubies ($12M) + RE ($6.6M)"
-  ltv_target: "3% – 11%"
+  ltv_target: "3% â€“ 11%"
   custody_required: true
   custody_preference: "Provident's own vault (NYC)"
   insurance_required: true
   insurance_type: "Included"
   submission_method: "Appointment (NYC)"
   submission_url: "https://providentloan.com"
-  sla_days: "1–3 BD"
+  sla_days: "1â€“3 BD"
   settlement: "Wire or check"
   priority: 3
   status: "route_d_only"
@@ -544,26 +559,26 @@
   name: "New York Loan Company"
   route: D
   route_name: "Personal Gem Bridge"
-  target_amount: "$1,000,000 – $3,000,000"
+  target_amount: "$1,000,000 â€“ $3,000,000"
   max_check_size: "$3,000,000 (est.)"
   collateral: "Personal rubies ($12M)"
-  ltv_target: "8% – 25%"
+  ltv_target: "8% â€“ 25%"
   custody_required: true
   custody_preference: "NYLC's own vault"
   insurance_required: true
   insurance_type: "Included"
   submission_method: "Appointment (NYC)"
   submission_url: "https://newyorkloan.com"
-  sla_days: "3–7 BD"
+  sla_days: "3â€“7 BD"
   settlement: "Wire transfer"
   priority: 3
   status: "route_d_only"
   notes: "Diamond/gemstone collateral loans. Appointment-based. Use for personal ruby bridge."
   package_folder: null
 
-# ─────────────────────────────────────────────────────────────────────────
-# CUSTODY / VAULT PROVIDERS (not lenders — enablers)
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# CUSTODY / VAULT PROVIDERS (not lenders â€” enablers)
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 - id: brinks
   name: "Brink's Global Services"
@@ -598,9 +613,9 @@
   priority: 2
   notes: "Strong European presence. Alternative if Brink's/Malca not available in target jurisdiction."
 
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # INSURANCE BROKERS
-# ─────────────────────────────────────────────────────────────────────────
+# â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 - id: marsh_specie
   name: "Marsh (Fine Art, Jewellery & Specie)"
@@ -637,3 +652,104 @@
   capacity: "Various"
   priority: 3
   notes: "Competitive quotes. Good for price comparison."
+
+# 
+# LIQUIDITY PROVIDERS (LP-ONLY  NOT lenders)
+# These firms provide liquidity, spreads, inventory, and settlement speed.
+# Do NOT pitch as lenders. See LIQUIDITY_PROVIDER_STRATEGY.md for framing.
+# 
+
+- id: jump_crypto
+  name: "Jump Crypto"
+  type: "liquidity_provider"
+  route: "LP"
+  route_name: "Market Maker  Institutional Scale"
+  lp_tier: 1
+  lp_phase: 3
+  lp_phase_timing: "Days 6090+"
+  specialty: "Ultra-deep liquidity, protocol-level LP, moves size quietly"
+  target_liquidity: "Volume-dependent (post-Phase 2)"
+  compensation: "Fee-based (spreads + performance)"
+  mandate_duration: "612 months"
+  exclusivity: false
+  priority: 1
+  status: "phase_3_target"
+  notes: "One of the deepest pools in crypto. Protocol-level. Do NOT pitch as a lender. Engage after Phase 2 volume proves concept."
+  package_folder: "TARGETS/Jump_Crypto/"
+  cross_ref: "LIQUIDITY_PROVIDER_STRATEGY.md"
+
+- id: b2c_group
+  name: "B2C Group"
+  type: "liquidity_provider"
+  route: "LP"
+  route_name: "Market Maker  Stablecoin Specialist"
+  lp_tier: 2
+  lp_phase: 2
+  lp_phase_timing: "Days 1460"
+  specialty: "Stablecoin pairs, exchange liquidity programs"
+  target_liquidity: "Stablecoin pair depth (USDC/USDT)"
+  compensation: "Fee-based (spreads + retainer)"
+  mandate_duration: "36 months"
+  exclusivity: false
+  priority: 2
+  status: "phase_2_target"
+  notes: "Stablecoin MM specialist. Exchange-level liquidity support. Phase 2 engagement once bridge capital is secured."
+  package_folder: "TARGETS/B2C_Group/"
+  cross_ref: "LIQUIDITY_PROVIDER_STRATEGY.md"
+
+- id: flow_traders
+  name: "Flow Traders"
+  type: "liquidity_provider"
+  route: "LP"
+  route_name: "Market Maker  High Volume"
+  lp_tier: 3
+  lp_phase: 3
+  lp_phase_timing: "Days 6090+"
+  specialty: "High-volume market making, traditional trading DNA, volatility environments"
+  target_liquidity: "Volume-dependent (post-Phase 2)"
+  compensation: "Fee-based (spreads + performance)"
+  mandate_duration: "612 months"
+  exclusivity: false
+  priority: 2
+  status: "phase_3_target"
+  notes: "Publicly traded (Euronext). Traditional risk management + digital asset MM. Engage at scale only."
+  package_folder: "TARGETS/Flow_Traders/"
+  cross_ref: "LIQUIDITY_PROVIDER_STRATEGY.md"
+
+- id: virtu_financial
+  name: "Virtu Financial"
+  type: "liquidity_provider"
+  route: "LP"
+  route_name: "Market Maker  Regulated Institutional"
+  lp_tier: 3
+  lp_phase: 3
+  lp_phase_timing: "Days 6090+"
+  specialty: "Institutional liquidity, regulated venues, massive scale"
+  target_liquidity: "Volume-dependent (post-Phase 2)"
+  compensation: "Fee-based (spreads + performance)"
+  mandate_duration: "12 months"
+  exclusivity: false
+  priority: 3
+  status: "phase_3_target"
+  notes: "NASDAQ: VIRT. One of the largest electronic MMs globally. Conservative onboarding. Long-term institutional partner."
+  package_folder: "TARGETS/Virtu_Financial/"
+  cross_ref: "LIQUIDITY_PROVIDER_STRATEGY.md"
+
+- id: keyrock
+  name: "Keyrock"
+  type: "liquidity_provider"
+  route: "LP"
+  route_name: "Market Maker  Token Issuance Specialist"
+  lp_tier: 3
+  lp_phase: 2
+  lp_phase_timing: "Days 1460"
+  specialty: "Token issuance liquidity, European venues, issuer-friendly, structured MM mandates"
+  target_liquidity: "RWA/stablecoin market support"
+  compensation: "Fee-based (retainer + performance)"
+  mandate_duration: "6 months"
+  exclusivity: false
+  priority: 2
+  status: "phase_2_target"
+  notes: "Issuer-friendly MM with structured mandates. European venue coverage. Good Phase 2 partner for RWA-backed stablecoin issuance."
+  package_folder: "TARGETS/Keyrock/"
+  cross_ref: "LIQUIDITY_PROVIDER_STRATEGY.md"
