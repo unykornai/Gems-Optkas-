@@ -140,7 +140,7 @@
 | **File Number** | 2025-001184729 |
 | **Manager** | Jimmy |
 | **Registered Agent** | Wyoming |
-| **Infrastructure** | Unykorn 7777, Inc. (technology & operations) |
+| **Infrastructure** | OPTKAS1 LLC (technology & operations) |
 
 ---
 
@@ -207,7 +207,6 @@
 | Role | Name | Email |
 |:-----|:-----|:------|
 | **Manager (OPTKAS1 LLC)** | Jimmy | jimmy@optkas.com |
-| **Infrastructure (Unykorn 7777)** | Kevan | kevan@xxxiii.io |
 
 ---
 
