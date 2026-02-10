@@ -119,8 +119,8 @@
     │      Market for high-quality alexandrite is global + liquid        │
     │                                                                     │
     │  ✅  ADDITIONAL COLLATERAL AVAILABLE                                │
-    │      This is part of a $936.6M diversified portfolio:              │
-    │      • $500M TC Advantage Notes (institutional bonds)              │
+    │      This is part of a $5.44B diversified portfolio:               │
+    │      • $5B TC Advantage Notes (institutional bonds)                │
     │      • $388M Natural Corundum Rubies (in preparation)              │
     │      • $6.6M Real Estate (deeded)                                  │
     │      Cross-collateralization available upon request                 │

@@ -1,7 +1,7 @@
-# EXECUTIVE SUMMARY — OTC DESKS / CRYPTO CREDIT FUNDS
+# EXECUTIVE SUMMARY — FALCONX
 
 **Borrower:** OPTKAS1 LLC (Wyoming Series LLC, File# 2025-001184729)  
-**Date:** February 9, 2026  
+**Date:** February 10, 2026  
 **Route:** 2.5 — Stablecoin Bridge ($2M USDC/USDT)
 
 ---
@@ -27,15 +27,18 @@
 
 ---
 
-## WHY THIS DEAL
+## WHY FALCONX
 
-This is the most overcollateralized bridge loan you will see this year.
+FalconX provides institutional-grade digital asset financing and credit. This deal fits your credit model:
 
-- **$42M asset backing $2M loan** = 21:1 coverage
-- **4.76% LTV** = near-zero credit risk
-- **60-day bullet** = short duration, minimal exposure
-- **Vault escrow with lender-only default release** = you control the asset
+- **$42M physical asset backing $2M loan** = 21:1 coverage
+- **4.76% LTV** = near-zero credit risk — far below your typical crypto lending parameters
+- **60-day bullet** = short duration, clean exit
+- **Vault escrow with lender-only default release** = you control the collateral
+- **Senior secured, overcollateralized** — not a trading position, not margin-dependent
 - **Full counsel-grade document pack ready** = close this week
+
+This is NOT gem financing. This is an **overcollateralized senior secured bridge** that happens to use a physical asset with independent appraisal and third-party custody.
 
 ---
 
@@ -113,16 +116,6 @@ This is the most overcollateralized bridge loan you will see this year.
 | Value | US$ 42,000,000 |
 | Authentication | DocuSign: 98840EC3-C71B-4647-B2FD-0DD80EC4C7F1 |
 | Collateral ID | OPTKAS1-ALEX-001 |
-
----
-
-## TOKEN EVIDENCE (Optional — Non-Reliance)
-
-If the lender appreciates blockchain verification:
-- **Polygon NFT** with SHA-256 hashes of all loan documents + IPFS CIDs
-- **Stellar memo** alternative
-- This is **NOT** security/collateral/investment — it is **immutable evidence only**
-- Full spec available in doc #9 above
 
 ---
 

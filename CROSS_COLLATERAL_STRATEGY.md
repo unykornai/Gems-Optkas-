@@ -11,13 +11,13 @@
 ```
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                    ║
-║  BONDS ALONE:     $506,600,000  →  Capacity: $202,640,000                         ║
+║  BONDS ALONE:     $5,006,600,000 →  Capacity: $2,002,640,000                     ║
 ║                                                                                    ║
-║  + ALEXANDRITE:   $548,600,000  →  Capacity: $219,440,000  (+$16.8M)              ║
+║  + ALEXANDRITE:   $5,048,600,000 →  Capacity: $2,019,440,000 (+$16.8M)            ║
 ║                                                                                    ║
-║  + ALL GEMS:      $936,600,000  →  Capacity: $327,810,000  (+$125.2M)             ║
+║  + ALL GEMS:      $5,436,600,000 →  Capacity: $2,134,340,000 (+$131.7M)           ║
 ║                                                                                    ║
-║  THE GEMS ADD $430M IN COLLATERAL AND $125M IN LENDING CAPACITY.                  ║
+║  THE GEMS ADD $430M IN COLLATERAL AND $132M IN LENDING CAPACITY.                   ║
 ║                                                                                    ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -33,7 +33,7 @@
     │   ┌──────────────────────┐   ┌──────────────────────┐              │
     │   │  📜 BOND PROGRAM     │   │  💎 GEM PORTFOLIO    │              │
     │   │                      │   │                      │              │
-    │   │  TC Notes  $500.0M   │   │  Alexandrite  $42.0M │              │
+    │   │  TC Notes  $5,000M    │   │  Alexandrite  $42.0M │              │
     │   │  (STC Custody)       │   │  (GIA Appraised)     │              │
     │   │  (UCC-1 Filed)       │   │                      │              │
     │   │  (14 Packages Ready) │   │  Rubies (I)  $376.0M │              │
@@ -52,7 +52,7 @@
     │              └───────────┬───────────────┘                          │
     │                          │                                          │
     │              ┌───────────▼───────────┐                              │
-    │              │  TOTAL: $936,600,000  │                              │
+    │              │  TOTAL: $5,436,600,000 │                              │
     │              └───────────────────────┘                              │
     │                                                                      │
     └──────────────────────────────────────────────────────────────────────┘
@@ -65,15 +65,15 @@
 ```
     ┌──────────────────┬───────────────────┬───────────────────┬──────────────────┐
     │  FACILITY SIZE   │  BONDS ONLY       │  + ALEXANDRITE    │  + ALL GEMS      │
-    │                  │  ($506.6M)        │  ($548.6M)        │  ($936.6M)       │
+    │                  │  ($5.01B)          │  ($5.05B)         │  ($5.44B)        │
     ├──────────────────┼───────────────────┼───────────────────┼──────────────────┤
-    │  $4,000,000      │  12,665%          │  13,715%          │  23,415%         │
-    │  $10,000,000     │  5,066%           │  5,486%           │  9,366%          │
-    │  $25,000,000     │  2,026%           │  2,194%           │  3,746%          │
-    │  $50,000,000     │  1,013%           │  1,097%           │  1,873%          │
-    │  $100,000,000    │  507%             │  549%             │  937%            │
-    │  $200,000,000    │  253%             │  274%             │  468%            │
-    │  $350,000,000    │  145%             │  157%             │  268%            │
+    │  $4,000,000      │  125,165%         │  126,215%         │  135,915%        │
+    │  $10,000,000     │  50,066%          │  50,486%          │  54,366%         │
+    │  $25,000,000     │  20,026%          │  20,194%          │  21,746%         │
+    │  $50,000,000     │  10,013%          │  10,097%          │  10,873%         │
+    │  $100,000,000    │  5,007%           │  5,049%           │  5,437%          │
+    │  $200,000,000    │  2,503%           │  2,524%           │  2,718%          │
+    │  $350,000,000    │  1,430%           │  1,442%           │  1,553%          │
     └──────────────────┴───────────────────┴───────────────────┴──────────────────┘
 
     📈 AT EVERY FACILITY SIZE, GEMS DRAMATICALLY INCREASE COVERAGE.
@@ -97,18 +97,18 @@
 ### Strategy 2: Cross-Collateral Enhancement
 
 ```
-    BONDS + GEMS + RE → Route 4 (Cross-Collateral, $100M–$350M)
+    BONDS + GEMS + RE → Route 4 (Cross-Collateral, $500M–$2B)
 
     One facility, maximum size.
-    The diversity of 3 asset classes REDUCES the lender's risk.
-    $936.6M backing → massive overcollateralization at any size.
+    The diversity of 3 asset classes REDUCES the lender’s risk.
+    $5.44B backing → massive overcollateralization at any size.
 ```
 
 ### Strategy 3: Gem Bridge → Bond Facility
 
 ```
     Step 1: ALEXANDRITE ($42M) → $12M–$21M bridge (7–30 BD)
-    Step 2: BONDS ($500M) → $4M–$200M ABL (60–120 BD)
+    Step 2: BONDS ($5B) → $4M–$2B ABL (60–120 BD)
     Step 3: Refinance bridge into larger facility when bond ABL closes
 
     The gem bridge FUNDS OPERATIONS while the bond facility processes.
@@ -124,11 +124,11 @@
 ║                                                                        ║
 ║  FOR BOND LENDERS:                                                     ║
 ║                                                                        ║
-║  "In addition to our $500M TC Advantage Notes, OPTKAS1 holds          ║
+║  "In addition to our $5B TC Advantage Notes, OPTKAS1 holds            ║
 ║   $430M in gemstone assets including $42M in independently            ║
 ║   appraised Alexandrite. While these gems are held as separate        ║
 ║   collateral, they demonstrate the depth and quality of our           ║
-║   total asset base ($936.6M) and the conservative nature              ║
+║   total asset base ($5.44B) and the conservative nature               ║
 ║   of our borrowing request."                                          ║
 ║                                                                        ║
 ║  This tells the bond lender: we're not desperate. We have multiple    ║
@@ -137,7 +137,7 @@
 ║                                                                        ║
 ║  FOR GEM LENDERS:                                                      ║
 ║                                                                        ║
-║  "Our $42M Alexandrite is part of a larger $936.6M portfolio.         ║
+║  "Our $42M Alexandrite is part of a larger $5.44B portfolio.          ║
 ║   We have institutional-grade infrastructure, professional            ║
 ║   documentation, and a track record of operational excellence.        ║
 ║   This is not a one-off gem loan — we are an institutional            ║
@@ -160,7 +160,7 @@
     DAYS 30–60: Full gem portfolio ready → cross-collateral option opens.
 
     FASTEST MONEY: Alexandrite bridge → $12M–$21M in 7–30 BD
-    LARGEST MONEY: Cross-collateral → $100M–$350M in 60–120 BD
+    LARGEST MONEY: Cross-collateral → $500M–$2B in 60–120 BD
 ```
 
 ---
@@ -171,6 +171,7 @@
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial cross-collateral strategy |
 | 1.1 | February 9, 2026 | Alexandrite bridge timeline fixed to 7–30 BD |
+| 1.2 | February 9, 2026 | Bond program corrected $500M → $5B. All totals, coverage ratios, route sizes updated |
 
 ---
 

@@ -52,7 +52,7 @@
 | 💎 | [ALEXANDRITE_APPRAISAL_SUMMARY.md](ALEXANDRITE_APPRAISAL_SUMMARY.md) | $42M appraised Alexandrite — full data, appraiser credentials | 🔴 CORE |
 | 🔴 | [RUBY_ASSET_PROFILE.md](RUBY_ASSET_PROFILE.md) | $388M rubies — SKR, JV structure, ownership chain | 🟡 REFERENCE |
 | 🚀 | [GEM_FUNDING_PLAYBOOK.md](GEM_FUNDING_PLAYBOOK.md) | Where to send, how to get funded FAST, step-by-step | 🔴 ACTION |
-| 🔗 | [CROSS_COLLATERAL_STRATEGY.md](CROSS_COLLATERAL_STRATEGY.md) | How $430M gems + $500M bonds = $936.6M power play | 🟠 STRATEGY |
+| 🔗 | [CROSS_COLLATERAL_STRATEGY.md](CROSS_COLLATERAL_STRATEGY.md) | How $430M gems + $5B bonds = $5.44B power play | 🟠 STRATEGY |
 | ⛓️ | [XRPL_GEM_INTEGRATION.md](XRPL_GEM_INTEGRATION.md) | GEMVLT token, on-chain proof, reporting layer | 🟡 TECH |
 | 📄 | [ALEXANDRITE_LENDER_ONE_PAGER.md](ALEXANDRITE_LENDER_ONE_PAGER.md) | 1-page executive summary — email attachment for lenders | 🔴 SEND NOW |
 | 🛡️ | [INSURANCE_PLACEMENT_CHECKLIST.md](INSURANCE_PLACEMENT_CHECKLIST.md) | Specie + custody + crime + cyber — what to ask brokers | 🔴 ACTION |
@@ -69,7 +69,7 @@
                     │              OPTKAS1 LLC                           │
                     │          Wyoming Series SPV                       │
                     │                                                    │
-                    │   TOTAL COLLATERAL BASE: $936,600,000             │
+                    │   TOTAL COLLATERAL BASE: $5,436,600,000           │
                     └───────────────────────┬────────────────────────────┘
                                             │
             ┌───────────────────────────────┼───────────────────────────────┐
@@ -78,7 +78,7 @@
    │  📜 BOND PROGRAM    │       │  💎 GEM PORTFOLIO   │       │  🏠 REAL ESTATE       │
    │                     │       │                     │       │                       │
    │  TC Advantage Notes │       │  Alexandrite  $42M  │       │  East Durham, NY      │
-   │  $500,000,000       │       │  Rubies (Inst) $376M│       │  $6,600,000           │
+   │  $5,000,000,000     │       │  Rubies (Inst) $376M│       │  $6,600,000           │
    │                     │       │  Rubies (Pers) $12M │       │                       │
    │  ✅ STC Custody     │       │  ═══════════════    │       │  ✅ Deeded             │
    │  ✅ UCC-1 Filed     │       │  TOTAL: $430M       │       │                       │
@@ -91,10 +91,10 @@
                                              │
                               ┌──────────────▼──────────────┐
                               │    COMBINED COLLATERAL      │
-                              │    $936,600,000             │
+                              │    $5,436,600,000           │
                               │                             │
-                              │    At 35% Blended LTV:      │
-                              │    $327,810,000             │
+                              │    At 39% Blended LTV:      │
+                              │    $2,134,340,000           │
                               └──────────────┬──────────────┘
                                              │
                    ┌─────────────────────────┼─────────────────────────┐
@@ -102,7 +102,7 @@
           ┌────────▼────────┐     ┌──────────▼──────────┐    ┌────────▼────────┐
           │  BOND ABL       │     │  GEM-BACKED         │    │  CROSS-         │
           │  LENDING        │     │  LENDING             │    │  COLLATERAL     │
-          │  $4M–$200M      │     │  $12M–$172M          │    │  $100M–$350M    │
+          │  $4M–$2B        │     │  $12M–$172M          │    │  $500M–$2B      │
           │  Route 1        │     │  Route 3             │    │  Route 4        │
           └─────────────────┘     └─────────────────────┘    └─────────────────┘
 ```
@@ -118,26 +118,26 @@
 ║                                                                                    ║
 ║  🏦 WITHOUT GEMS (Bonds Only):                                                    ║
 ║                                                                                    ║
-║     TC Notes:          $500,000,000                                                ║
+║     TC Notes:          $5,000,000,000                                              ║
 ║     Real Estate:       $6,600,000                                                  ║
 ║     ─────────────────────────────                                                  ║
-║     TOTAL:             $506,600,000                                                ║
-║     Lending Capacity:  $202,640,000 (at 40% LTV)                                  ║
+║     TOTAL:             $5,006,600,000                                              ║
+║     Lending Capacity:  $2,002,640,000 (at 40% LTV)                                ║
 ║                                                                                    ║
 ║  💎 WITH GEMS (Full Portfolio):                                                    ║
 ║                                                                                    ║
-║     TC Notes:          $500,000,000                                                ║
+║     TC Notes:          $5,000,000,000                                              ║
 ║     Alexandrite:       $42,000,000   ◄── NEW: APPRAISED + READY                   ║
 ║     Rubies (Inst):     $376,000,000                                                ║
 ║     Rubies (Pers):     $12,000,000                                                ║
 ║     Real Estate:       $6,600,000                                                  ║
 ║     ─────────────────────────────                                                  ║
-║     TOTAL:             $936,600,000  ◄── 84.9% INCREASE                           ║
-║     Lending Capacity:  $327,810,000 (at 35% blended LTV)                          ║
+║     TOTAL:             $5,436,600,000 ◄── +$430M GEM DIVERSIFICATION              ║
+║     Lending Capacity:  $2,134,340,000 (at 39% blended LTV)                        ║
 ║                                                                                    ║
 ║  📈 IMPACT:                                                                        ║
-║     +$430,000,000 in collateral value                                              ║
-║     +$125,170,000 in lending capacity                                              ║
+║     +$430,000,000 in collateral value (gem diversification)                        ║
+║     +$131,700,000 in lending capacity                                              ║
 ║     3 asset classes → diversification premium                                      ║
 ║     Lower risk profile → better pricing                                            ║
 ║                                                                                    ║
@@ -150,8 +150,8 @@
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
     │  1️⃣  OVERCOLLATERALIZATION                                             │
-    │     $936.6M backing a $4M facility = 23,415% coverage.                 │
-    │     Even at $200M facility = 468% coverage. Lenders love this.         │
+    │     $5.44B backing a $4M facility = 135,915% coverage.                 │
+    │     Even at $200M facility = 2,718% coverage. Lenders love this.       │
     │                                                                         │
     │  2️⃣  DIVERSIFICATION                                                   │
     │     Bonds + Gems + Real Estate = 3 uncorrelated asset classes.         │
@@ -190,14 +190,14 @@
               │                          │                          │
      ┌────────▼──────────┐    ┌──────────▼──────────┐    ┌─────────▼──────────┐
      │  💰 MONEY FAST    │    │  💰💰 BIG FACILITY │    │  💰💰💰 MAXIMUM  │
-     │  ($2M–$20M)       │    │  ($50M–$172M)       │    │  ($100M–$350M)     │
+     │  ($2M–$20M)       │    │  ($50M–$172M)       │    │  ($500M–$2B)       │
      │  7–30 BD          │    │  45–90 BD            │    │  60–120 BD         │
      └────────┬──────────┘    └──────────┬──────────┘    └─────────┬──────────┘
               │                          │                          │
      ┌────────▼──────────┐    ┌──────────▼──────────┐    ┌─────────▼──────────┐
      │                   │    │                      │    │                    │
      │  USE ALEXANDRITE  │    │  USE ALL GEMS        │    │  USE EVERYTHING    │
-     │  ($42M appraised) │    │  ($430M total)       │    │  ($936.6M total)   │
+     │  ($42M appraised) │    │  ($430M total)       │    │  ($5.44B total)    │
      │                   │    │                      │    │                    │
      │  ✅ Ready NOW     │    │  ⚠️ Ruby prep needed │    │  Bonds + Gems + RE │
      │  ✅ GIA appraisal │    │  (30–45 BD)          │    │                    │
@@ -298,10 +298,10 @@
     │         │
     │         └──► RESULT: Major gem-backed credit facility
     │
-    ├──► 🟠 ROUTE C: Cross-Collateral ($936.6M combined)
+    ├──► 🟠 ROUTE C: Cross-Collateral ($5.44B combined)
     │    │
-    │    │   Collateral: $500M bonds + $430M gems + $6.6M RE
-    │    │   Facility:   $100M–$350M (blended LTV)
+    │    │   Collateral: $5B bonds + $430M gems + $6.6M RE
+    │    │   Facility:   $500M–$2B (blended LTV)
     │    │   Timeline:   60–120 BD
     │    │
     │    └──► WHO:  Multi-strategy credit funds
@@ -357,7 +357,7 @@
 ║                                                                                    ║
 ║  🟠 Full gem facility OR cross-collateral (Routes B/C)                            ║
 ║     → All ruby prerequisites complete                                              ║
-║     → $129M–$350M facility range                                                   ║
+║     → $500M–$2B facility range                                                   ║
 ║                                                                                    ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -453,6 +453,7 @@
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial gem portfolio documentation |
 | 1.1 | February 9, 2026 | +Lender one-pager, package factory, insurance checklist, named targets, timeline/LTV fix |
+| 1.2 | February 9, 2026 | Bond program corrected $500M → $5B. All totals, routes, coverage ratios updated. +10 Route 2.5 crypto lender targets |
 
 ---
 

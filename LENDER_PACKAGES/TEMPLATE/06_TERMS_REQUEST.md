@@ -56,10 +56,10 @@
 
 | Asset | Value | Status | Notes |
 |:------|:------|:-------|:------|
-| TC Advantage Notes | $500,000,000 | Institutional bonds, STC custody | Separate ABL track |
+| TC Advantage Notes | $5,000,000,000 | Institutional bonds, STC custody | Separate ABL track |
 | Natural Corundum Rubies | $388,000,000 | SKR on file, preparation underway | Available in 30–60 BD |
 | Real Estate (East Durham, NY) | $6,600,000 | Deeded | Available now |
-| **TOTAL PORTFOLIO** | **$936,600,000** | | Cross-collateral available |
+| **TOTAL PORTFOLIO** | **$5,436,600,000** | | Cross-collateral available |
 
 > If the lender desires a larger facility or additional security, cross-collateralization with the above assets is available upon request.
 

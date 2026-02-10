@@ -48,10 +48,10 @@ This is not a one-off gem loan. OPTKAS1 is an institutional borrower with profes
 
 | Asset | Value |
 |:------|:------|
-| TC Advantage Notes | $500,000,000 |
+| TC Advantage Notes | $5,000,000,000 |
 | Natural Corundum Rubies | $388,000,000 |
 | Real Estate | $6,600,000 |
-| **TOTAL** | **$936,600,000** |
+| **TOTAL** | **$5,436,600,000** |
 
 ---
 

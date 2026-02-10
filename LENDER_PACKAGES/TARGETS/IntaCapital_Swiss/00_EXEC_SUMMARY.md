@@ -41,10 +41,10 @@ IntaCapital Swiss SA specializes in **gem monetization at institutional scale**.
 
 | Asset | Value | Status |
 |:------|:------|:-------|
-| TC Advantage Notes (Institutional Bonds) | $500,000,000 | STC custody, UCC-1 filed, 14 lender packages ready |
+| TC Advantage Notes (Institutional Bonds) | $5,000,000,000 | STC custody, UCC-1 filed, 14 lender packages ready |
 | Natural Corundum Rubies | $388,000,000 | SKR on file, preparation in progress |
 | Real Estate (East Durham, NY) | $6,600,000 | Deeded |
-| **TOTAL PORTFOLIO** | **$936,600,000** | Cross-collateralization available |
+| **TOTAL PORTFOLIO** | **$5,436,600,000** | Cross-collateralization available |
 
 ---
 

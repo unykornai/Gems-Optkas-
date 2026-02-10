@@ -37,7 +37,7 @@ Qollateral offers **same-day loans up to $10 million** against luxury collateral
 | Rough Chrysoberyl Alexandrite (2kg / 10,000ct) | $42,000,000 | ✅ GIA-credentialed appraisal, DocuSign authenticated |
 | **TOTAL PRIMARY** | **$42,000,000** | |
 
-**Additional collateral available upon request:** $500M bonds + $388M rubies + $6.6M real estate = $936.6M total portfolio.
+**Additional collateral available upon request:** $5B bonds + $388M rubies + $6.6M real estate = $5.44B total portfolio.
 
 ---
 

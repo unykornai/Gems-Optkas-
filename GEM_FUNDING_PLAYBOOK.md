@@ -248,9 +248,9 @@
 ║     Alexandrite is among the rarest gemstones on Earth                 ║
 ║                                                                        ║
 ║  📌 ADDITIONAL COLLATERAL AVAILABLE:                                  ║
-║     $500M TC Advantage Notes (separate bond ABL)                      ║
+║     $5B TC Advantage Notes (separate bond ABL)                        ║
 ║     $388M Natural Corundum Rubies (in preparation)                    ║
-║     Total portfolio: $936.6M                                           ║
+║     Total portfolio: $5.44B                                           ║
 ║                                                                        ║
 ║  📌 ATTACHMENTS:                                                      ║
 ║     1. Full appraisal report (13 pages, DocuSign)                     ║
@@ -415,8 +415,8 @@
     secured by this asset, to be held in [vault] custody with
     full insurance coverage.
 
-    The Alexandrite is part of a larger $936.6M collateral portfolio
-    including $500M in TC Advantage Notes (institutional bonds)
+    The Alexandrite is part of a larger $5.44B collateral portfolio
+    including $5B in TC Advantage Notes (institutional bonds)
     and $388M in natural corundum rubies. Additional collateral
     is available for cross-collateralization if desired.
 
@@ -438,7 +438,7 @@
     We're seeking conservative terms — 30% LTV would be $12.6M,
     representing massive overcollateralization (333%).
 
-    This is part of a broader portfolio of $936.6M in diversified
+    This is part of a broader portfolio of $5.44B in diversified
     assets (bonds, gemstones, real estate) managed through
     OPTKAS1 LLC, a Wyoming Series LLC."
 ```
@@ -451,6 +451,7 @@
 |:--------|:-----|:-------|
 | 1.0 | February 9, 2026 | Initial gem funding playbook |
 | 1.1 | February 9, 2026 | Timeline 7–30 BD, LTV 30–35%, named lender targets, package factory cross-ref |
+| 1.2 | February 9, 2026 | Bond program corrected $500M → $5B. All portfolio totals updated |
 
 ---
 

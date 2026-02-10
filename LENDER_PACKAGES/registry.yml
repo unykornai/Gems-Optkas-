@@ -5,7 +5,7 @@
 # This file is the CONTROL PANEL for all lender targets.
 # To add a new package: copy TEMPLATE/ → TARGETS/[LenderName]/ → fill fields → submit.
 #
-# Last Updated: February 9, 2026
+# Last Updated: February 10, 2026
 # Maintainer: Kevan (kevan@xxxiii.io)
 #
 
@@ -142,6 +142,246 @@
   status: "ready_to_submit"
   notes: "Fastest USDC/USDT source. 4% flat fee, 60-day bullet, 21:1 overcollateralization. Full counsel-grade doc pack in TC repo 07_EMERGENCY_BRIDGE_2M/."
   package_folder: "TARGETS/OTC_Crypto_Credit/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: galaxy_digital
+  name: "Galaxy Digital"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$50,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — lending desk"
+  submission_url: "https://galaxy.com"
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT"
+  priority: 1
+  tier: 1
+  tier_timing: "Day 0"
+  status: "ready_to_submit"
+  notes: "Top-tier digital asset lending desk. $2M is trivial for their book. Senior secured, 21:1 overcollateralized, 60-day bullet. Pitch as clean credit opportunity, not gem financing."
+  package_folder: "TARGETS/Galaxy_Digital/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: falconx
+  name: "FalconX"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$25,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — financing team"
+  submission_url: "https://falconx.io/services/financing"
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT"
+  priority: 1
+  tier: 1
+  tier_timing: "Day 0"
+  status: "ready_to_submit"
+  notes: "Institutional digital asset financing. SOC 2 certified. $2M well within credit limits. Pitch: overcollateralized senior secured bridge, stablecoin settlement."
+  package_folder: "TARGETS/FalconX/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: amber_group
+  name: "Amber Group"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$25,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — OTC desk"
+  submission_url: "https://ambergroup.io"
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT"
+  priority: 1
+  tier: 1
+  tier_timing: "Day 0"
+  status: "ready_to_submit"
+  notes: "Global OTC + lending. Deep stablecoin liquidity. Pitch: 21:1 overcollateralized, vault escrow, lender-only default control."
+  package_folder: "TARGETS/Amber_Group/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: maple_finance
+  name: "Maple Finance"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$10,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — credit team"
+  submission_url: "https://maple.finance/about"
+  sla_days: "5–10 BD"
+  settlement: "USDC or USDT"
+  priority: 1
+  tier: 2
+  tier_timing: "Day 0–1"
+  status: "ready_to_submit"
+  notes: "Institutional lending pools + direct credit. Understands structured credit. Pitch: senior secured physical-asset-backed bridge with stablecoin settlement."
+  package_folder: "TARGETS/Maple_Finance/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: blocktower
+  name: "BlockTower Capital"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$25,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — credit strategies"
+  submission_url: null
+  sla_days: "5–10 BD"
+  settlement: "USDC or USDT"
+  priority: 1
+  tier: 2
+  tier_timing: "Day 0–1"
+  status: "ready_to_submit"
+  notes: "Credit fund with digital asset mandate. Manages structured products. Pitch: overcollateralized bridge, uncorrelated to crypto markets, 4% flat return."
+  package_folder: "TARGETS/BlockTower/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: stone_ridge
+  name: "Stone Ridge Asset Management"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$100,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — alternative credit"
+  submission_url: null
+  sla_days: "5–10 BD"
+  settlement: "USDC or USDT"
+  priority: 2
+  tier: 3
+  tier_timing: "Day 1"
+  status: "ready_to_submit"
+  notes: "$10B+ AUM. NYDIG parent. Institutional-grade diligence. Pitch: senior secured, independent appraisal, physical asset in vault, stablecoin settlement."
+  package_folder: "TARGETS/Stone_Ridge/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: gsr
+  name: "GSR"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$25,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — OTC lending"
+  submission_url: null
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT"
+  priority: 2
+  tier: 3
+  tier_timing: "Day 1"
+  status: "ready_to_submit"
+  notes: "One of the oldest crypto OTC firms. Deep stablecoin inventory. Pitch: 21:1 overcollateralized, 60-day bullet, 4% flat return, lender controls vault."
+  package_folder: "TARGETS/GSR/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: brevan_howard_digital
+  name: "Brevan Howard Digital"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$100,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — credit desk"
+  submission_url: null
+  sla_days: "7–14 BD"
+  settlement: "USDC or USDT"
+  priority: 2
+  tier: 4
+  tier_timing: "Day 1–2"
+  status: "ready_to_submit"
+  notes: "Digital arm of premier macro hedge fund. Institutional-grade diligence cycle. Pitch: senior secured, physical-asset-backed, zero crypto correlation, 4% annualized return."
+  package_folder: "TARGETS/Brevan_Howard_Digital/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: drw_cumberland
+  name: "DRW / Cumberland"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$50,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — OTC desk"
+  submission_url: null
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT"
+  priority: 2
+  tier: 4
+  tier_timing: "Day 1–2"
+  status: "ready_to_submit"
+  notes: "Principal trading firm with deep stablecoin liquidity. $2M is trivial. Pitch: overcollateralized senior secured bridge, vault escrow, lender-only default release."
+  package_folder: "TARGETS/DRW_Cumberland/"
+  tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
+
+- id: wintermute
+  name: "Wintermute"
+  route: "2.5"
+  route_name: "Stablecoin Bridge ($2M USDC/USDT)"
+  target_amount: "$2,000,000"
+  max_check_size: "$25,000,000+"
+  collateral: "Alexandrite ($42M) in vault escrow"
+  ltv_target: "4.76%"
+  custody_required: true
+  custody_preference: "Independent vault with tripartite control"
+  insurance_required: true
+  insurance_type: "Specie + Digital Asset Custody"
+  submission_method: "Direct outreach — OTC + lending"
+  submission_url: null
+  sla_days: "3–7 BD"
+  settlement: "USDC or USDT"
+  priority: 2
+  tier: 4
+  tier_timing: "Day 1–2"
+  status: "ready_to_submit"
+  notes: "Leading algorithmic market maker with OTC lending desk. Deep stablecoin liquidity. Pitch: 21:1 overcollateralized, real-world asset, zero market-correlation risk."
+  package_folder: "TARGETS/Wintermute/"
   tc_repo_cross_ref: "07_EMERGENCY_BRIDGE_2M/"
 
 - id: damrev
