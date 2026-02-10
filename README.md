@@ -56,7 +56,12 @@
 | ⛓️ | [XRPL_GEM_INTEGRATION.md](XRPL_GEM_INTEGRATION.md) | GEMVLT token, on-chain proof, reporting layer | 🟡 TECH |
 | 📄 | [ALEXANDRITE_LENDER_ONE_PAGER.md](ALEXANDRITE_LENDER_ONE_PAGER.md) | 1-page executive summary — email attachment for lenders | 🔴 SEND NOW |
 | 🛡️ | [INSURANCE_PLACEMENT_CHECKLIST.md](INSURANCE_PLACEMENT_CHECKLIST.md) | Specie + custody + crime + cyber — what to ask brokers | 🔴 ACTION |
-| 📦 | [LENDER_PACKAGES/](LENDER_PACKAGES/) | Repeatable package factory + lender registry + filled targets | 🔴 ACTION |
+| 📦 | [LENDER_PACKAGES/](LENDER_PACKAGES/) | Repeatable package factory + lender registry + 22 filled targets | 🔴 ACTION |
+| 📧 | [OUTREACH_EMAILS_JIMMY.md](OUTREACH_EMAILS_JIMMY.md) | 6 copy-paste email templates + 27-target routing table | 🔴 SEND NOW |
+| 💧 | [LIQUIDITY_PROVIDER_STRATEGY.md](LIQUIDITY_PROVIDER_STRATEGY.md) | 3-tier LP architecture — roles, phasing, dual-role matrix | 🟠 STRATEGY |
+| 🎙️ | [LP_INTRO_CALL_SCRIPTS.md](LP_INTRO_CALL_SCRIPTS.md) | Word-for-word scripts for LP calls — DO/DO NOT rules | 🟠 REFERENCE |
+| 📊 | [LIQUIDITY_KPIs.md](LIQUIDITY_KPIs.md) | Phase gate metrics + KPI dashboard — what LPs will ask for | 🟠 REFERENCE |
+| 🛡️ | [AMM_GUARDRAILS.md](AMM_GUARDRAILS.md) | Token pair restrictions — red/yellow/green lists + kill-switch | 🟠 REFERENCE |
 
 ---
 
@@ -415,17 +420,28 @@
 ```
     Gems-Optkas-/
     │
+    │── 📖 CORE DOCUMENTS
     ├── README.md                           ◄── You are here
-    ├── ALEXANDRITE_APPRAISAL_SUMMARY.md    ◄── $42M Alexandrite details
+    ├── ALEXANDRITE_APPRAISAL_SUMMARY.md    ◄── $42M Alexandrite — full appraisal data
     ├── ALEXANDRITE_LENDER_ONE_PAGER.md     ◄── 1-page exec summary (SEND THIS)
-    ├── RUBY_ASSET_PROFILE.md               ◄── $388M Ruby details
-    ├── GEM_FUNDING_PLAYBOOK.md             ◄── WHERE + HOW to get funded
-    ├── CROSS_COLLATERAL_STRATEGY.md        ◄── Gems + Bonds = maximum power
-    ├── XRPL_GEM_INTEGRATION.md            ◄── GEMVLT token + on-chain proof
+    ├── RUBY_ASSET_PROFILE.md               ◄── $388M Ruby — SKR, JV, ownership
+    ├── GEM_FUNDING_PLAYBOOK.md             ◄── WHERE + HOW to get funded FAST
+    ├── CROSS_COLLATERAL_STRATEGY.md        ◄── Gems + Bonds = $5.44B power play
+    ├── XRPL_GEM_INTEGRATION.md             ◄── GEMVLT token + on-chain proof
     ├── INSURANCE_PLACEMENT_CHECKLIST.md    ◄── What to ask Marsh/Aon/Willis
     │
-    └── LENDER_PACKAGES/                    ◄── Package factory
-        ├── registry.yml                    ◄── Control panel: all lender targets
+    │── 📧 OUTREACH
+    ├── OUTREACH_EMAILS_JIMMY.md            ◄── 6 copy-paste emails + routing table
+    │
+    │── 💧 LIQUIDITY PROVIDER EXECUTION STACK
+    ├── LIQUIDITY_PROVIDER_STRATEGY.md      ◄── 3-tier LP architecture + dual-role matrix
+    ├── LP_INTRO_CALL_SCRIPTS.md            ◄── Word-for-word scripts (DO / DO NOT)
+    ├── LIQUIDITY_KPIs.md                   ◄── Phase gate metrics + KPI dashboard
+    ├── AMM_GUARDRAILS.md                   ◄── Red/yellow/green pair lists + kill-switch
+    │
+    │── 📦 LENDER PACKAGES
+    └── LENDER_PACKAGES/
+        ├── registry.yml                    ◄── Control panel: 22 lenders + 5 LPs + custody + insurance
         ├── TEMPLATE/                       ◄── Copy → customize → submit
         │   ├── 00_EXEC_SUMMARY.md
         │   ├── 01_COLLATERAL_FACTSHEET.md
@@ -435,14 +451,35 @@
         │   ├── 05_LEGAL_PERFECTION.md
         │   └── 06_TERMS_REQUEST.md
         │
-        └── TARGETS/                        ◄── Lender-specific packages
+        └── TARGETS/                        ◄── 22 lender + 5 LP target folders
+            │
+            │── Route A — Alexandrite Bridge
             ├── Borro/
-            ├── Qollateral/
-            ├── IntaCapital_Swiss/
             ├── Beverly_Loan/
             ├── Collateral_Lenders/
+            ├── IntaCapital_Swiss/
+            ├── Qollateral/
+            ├── Swiss_Private_Banks/
+            │
+            │── Route 2.5 — Stablecoin Bridge
             ├── OTC_Crypto_Credit/
-            └── Swiss_Private_Banks/
+            ├── Galaxy_Digital/
+            ├── FalconX/
+            ├── Amber_Group/
+            ├── Maple_Finance/
+            ├── BlockTower/
+            ├── Stone_Ridge/
+            ├── GSR/
+            ├── Brevan_Howard_Digital/
+            ├── DRW_Cumberland/
+            ├── Wintermute/
+            │
+            │── LP-Only — Liquidity Providers
+            ├── Jump_Crypto/
+            ├── B2C_Group/
+            ├── Flow_Traders/
+            ├── Virtu_Financial/
+            └── Keyrock/
 ```
 
 ---
@@ -454,6 +491,8 @@
 | 1.0 | February 9, 2026 | Initial gem portfolio documentation |
 | 1.1 | February 9, 2026 | +Lender one-pager, package factory, insurance checklist, named targets, timeline/LTV fix |
 | 1.2 | February 9, 2026 | Bond program corrected $500M → $5B. All totals, routes, coverage ratios updated. +10 Route 2.5 crypto lender targets |
+| 1.3 | February 9, 2026 | +LP Strategy, LP call scripts, 5 LP-only targets (Jump/B2C/Flow/Virtu/Keyrock), dual-role annotations |
+| 1.4 | February 9, 2026 | +Outreach email templates (6 emails, 27 targets), Liquidity KPIs, AMM Guardrails. README expanded to full index. |
 
 ---
 
