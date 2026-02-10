@@ -4,7 +4,7 @@
 
 **Entity:** OPTKAS1 LLC · Wyoming Series LLC · File# 2025-001184729  
 **Manager:** Jimmy · jimmy@optkas.com  
-**Infrastructure:** Unykorn 7777, Inc.  
+**Infrastructure:** OPTKAS1 LLC  
 **Classification:** 🟢 INSTITUTIONAL — Lender-Ready Documentation
 
 </div>

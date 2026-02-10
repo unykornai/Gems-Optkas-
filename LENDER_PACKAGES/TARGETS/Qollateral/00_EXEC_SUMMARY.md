@@ -81,7 +81,6 @@ Qollateral offers **same-day loans up to $10 million** against luxury collateral
 | Role | Name | Email |
 |:-----|:-----|:------|
 | Manager (OPTKAS1 LLC) | Jimmy | jimmy@optkas.com |
-| Infrastructure (Unykorn 7777) | Kevan | kevan@xxxiii.io |
 
 ---
 

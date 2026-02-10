@@ -66,7 +66,6 @@ Beverly Loan Company has a GIA-trained team and a proven track record with certi
 | Role | Name | Email |
 |:-----|:-----|:------|
 | Manager (OPTKAS1 LLC) | Jimmy | jimmy@optkas.com |
-| Infrastructure (Unykorn 7777) | Kevan | kevan@xxxiii.io |
 
 ---
 

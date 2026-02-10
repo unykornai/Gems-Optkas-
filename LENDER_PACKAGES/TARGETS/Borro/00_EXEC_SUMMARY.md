@@ -81,7 +81,6 @@ Borro specializes in confidential, fast-pay loans secured by luxury assets inclu
 | Role | Name | Email |
 |:-----|:-----|:------|
 | Manager (OPTKAS1 LLC) | Jimmy | jimmy@optkas.com |
-| Infrastructure (Unykorn 7777) | Kevan | kevan@xxxiii.io |
 
 ---
 
