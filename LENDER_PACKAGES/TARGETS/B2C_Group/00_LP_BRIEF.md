@@ -66,8 +66,6 @@ This is **not a lending pitch**. We need a market maker to provide stablecoin de
 | Role | Name | Email |
 |:-----|:-----|:------|
 | Manager (OPTKAS1 LLC) | Jimmy | jimmy@optkas.com |
-| Infrastructure (Unykorn 7777) | Kevan | kevan@xxxiii.io |
-
 ---
 
 *CONFIDENTIAL — OPTKAS1 LLC. This is a liquidity provider inquiry, not a securities offering.*

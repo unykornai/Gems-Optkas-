@@ -140,8 +140,6 @@
 | **File Number** | 2025-001184729 |
 | **Manager** | Jimmy |
 | **Registered Agent** | Wyoming |
-| **Infrastructure** | Unykorn 7777, Inc. (technology & operations) |
-
 ---
 
 ## CUSTODY PLAN
@@ -207,8 +205,6 @@
 | Role | Name | Email |
 |:-----|:-----|:------|
 | **Manager (OPTKAS1 LLC)** | Jimmy | jimmy@optkas.com |
-| **Infrastructure (Unykorn 7777)** | Kevan | kevan@xxxiii.io |
-
 ---
 
 *CONFIDENTIAL — OPTKAS1 LLC. This document is provided for evaluation purposes only and does not constitute an offer of securities. Contact jimmy@optkas.com.*

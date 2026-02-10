@@ -113,8 +113,6 @@ OPTKAS1 operates blockchain-enhanced reporting via XRPL mainnet:
 | Role | Name | Email |
 |:-----|:-----|:------|
 | Manager (OPTKAS1 LLC) | Jimmy | jimmy@optkas.com |
-| Infrastructure (Unykorn 7777) | Kevan | kevan@xxxiii.io |
-
 ---
 
 *CONFIDENTIAL — OPTKAS1 LLC. This document is provided for evaluation purposes only and does not constitute an offer of securities.*

@@ -151,7 +151,7 @@ Data breaches, ransomware, business interruption from cyber events, technology e
 
     "We need cyber liability + technology E&O coverage for:
 
-    INSURED:     OPTKAS1 LLC + Unykorn 7777, Inc. (infrastructure partner)
+    INSURED:     OPTKAS1 LLC
     COVERAGE:    First-party: breach response, business interruption,
                  data recovery, cyber extortion
                  Third-party: regulatory defense, privacy liability,

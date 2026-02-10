@@ -108,8 +108,6 @@ This is not a one-off gem loan. OPTKAS1 is an institutional borrower with profes
 | Role | Name | Email |
 |:-----|:-----|:------|
 | Manager (OPTKAS1 LLC) | Jimmy | jimmy@optkas.com |
-| Infrastructure (Unykorn 7777) | Kevan | kevan@xxxiii.io |
-
 ---
 
 *CONFIDENTIAL — OPTKAS1 LLC.*
